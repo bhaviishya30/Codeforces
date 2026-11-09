@@ -8,6 +8,7 @@ class Solution {
                 sum=Math.abs(arr1[i]-arr2[j]);
                 if(sum <= d){
                     flag=false;
+                    break;
                 
                 }
             }
