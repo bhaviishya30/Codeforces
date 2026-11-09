@@ -61,9 +61,9 @@ Output: 1
 ## Solution
 
 **Language:** Java  
-**Runtime:** 4 ms (beats 84.44%)  
-**Memory:** 45.3 MB (beats 97.59%)  
-**Submitted:** 2026-11-09T05:45:25.999Z  
+**Runtime:** 18 ms (beats 8.17%)  
+**Memory:** 45.9 MB (beats 40.54%)  
+**Submitted:** 2026-11-09T05:45:42.338Z  
 
 ```java
 class Solution {
@@ -76,7 +76,7 @@ class Solution {
                 sum=Math.abs(arr1[i]-arr2[j]);
                 if(sum <= d){
                     flag=false;
-                    break;
+                
                 }
             }
             if(flag){
