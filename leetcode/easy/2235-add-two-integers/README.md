@@ -34,16 +34,18 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.2 MB (beats 72.20%)  
-**Submitted:** 2026-11-10T06:48:24.983Z  
+**Language:** C++  
+**Runtime:** 1 ms (beats 3.71%)  
+**Memory:** 7.8 MB (beats 86.14%)  
+**Submitted:** 2026-11-10T06:48:45.417Z  
 
-```py
-class Solution:
-    def sum(self, num1: int, num2: int) -> int:
-        return num1+num2
-        
+```cpp
+class Solution {
+public:
+    int sum(int num1, int num2) {
+        return num1+num2;
+    }
+};
 ```
 
 ---
