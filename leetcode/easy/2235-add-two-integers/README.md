@@ -34,17 +34,14 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 
 ## Solution
 
-**Language:** C++  
-**Runtime:** 1 ms (beats 3.71%)  
-**Memory:** 7.8 MB (beats 86.14%)  
-**Submitted:** 2026-11-10T06:48:45.417Z  
+**Language:** TypeScript  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 55.1 MB (beats 77.36%)  
+**Submitted:** 2026-11-10T06:50:05.313Z  
 
-```cpp
-class Solution {
-public:
-    int sum(int num1, int num2) {
-        return num1+num2;
-    }
+```ts
+function sum(num1: number, num2: number): number {
+    return num1+num2;
 };
 ```
 
