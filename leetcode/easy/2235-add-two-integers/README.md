@@ -34,15 +34,15 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 
 ## Solution
 
-**Language:** TypeScript  
+**Language:** C  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 55.1 MB (beats 77.36%)  
-**Submitted:** 2026-11-10T06:50:05.313Z  
+**Memory:** 8.4 MB (beats 89.80%)  
+**Submitted:** 2026-11-10T06:49:06.326Z  
 
-```ts
-function sum(num1: number, num2: number): number {
+```c
+int sum(int num1, int num2) {
     return num1+num2;
-};
+}
 ```
 
 ---
