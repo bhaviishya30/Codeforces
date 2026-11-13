@@ -13,6 +13,8 @@ Return a boolean indicating whether the matching covers the entire input string 
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -53,9 +55,9 @@ Explanation: ". *" means "zero or more (*) of any character (.)".
 ## Solution
 
 **Language:** Java  
-**Runtime:** 456 ms (beats 8.60%)  
-**Memory:** 43.7 MB (beats 14.79%)  
-**Submitted:** 2026-11-08T15:19:32.959Z  
+**Runtime:** 448 ms (beats 9.22%)  
+**Memory:** 43.6 MB (beats 30.16%)  
+**Submitted:** 2026-11-13T17:25:32.976Z  
 
 ```java
 class Solution {
