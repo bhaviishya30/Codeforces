@@ -14,6 +14,8 @@ Return  *the maximum amount of water a container can store*.
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -42,9 +44,9 @@ Output: 1
 ## Solution
 
 **Language:** Java  
-**Runtime:** 5 ms (beats 83.11%)  
-**Memory:** 76.6 MB (beats 97.13%)  
-**Submitted:** 2026-11-07T16:19:51.837Z  
+**Runtime:** 5 ms (beats 83.50%)  
+**Memory:** 76.7 MB (beats 90.98%)  
+**Submitted:** 2026-11-19T14:24:23.112Z  
 
 ```java
 class Solution {
