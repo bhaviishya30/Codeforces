@@ -40,9 +40,9 @@ Output: 10
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 41.6 MB  
-**Submitted:** 2026-11-22T15:11:53.051Z  
+**Runtime:** 2 ms (beats 8.04%)  
+**Memory:** 52.4 MB (beats 68.81%)  
+**Submitted:** 2026-11-22T15:14:58.960Z  
 
 ```java
 class Solution {
@@ -54,6 +54,12 @@ class Solution {
         for(int i=1;i<nums.length-1;i++){
             if(nums[i]!=nums[i-1] && nums[i]!=nums[i+1]){
                return nums[i];
+            }
+            if(nums[0]!=nums[1]){
+                return nums[0];
+            }
+            if(nums[nums.length-1]!=nums[nums.length-2]){
+                return nums[nums.length-1];
             }
         }
         return 0;
